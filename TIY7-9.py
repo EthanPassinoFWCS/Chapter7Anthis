@@ -7,7 +7,7 @@ while "pastrami" in sandwich_orders:
     sandwich_orders.remove("pastrami")
 
 lenoflist = len(sandwich_orders)
-while(lenoflist > 0):
+while lenoflist > 0:
     print(f"I made your sandwich {sandwich_orders[0]}")
     finished_sandwiches.append(sandwich_orders[0])
     sandwich_orders.remove(sandwich_orders[0])
